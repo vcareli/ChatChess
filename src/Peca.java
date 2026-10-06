@@ -14,4 +14,8 @@ public class Peca {
 	public boolean getIsBlack() {
 		return this.isBlack;
 	}
+
+	public boolean eMovimentoValido(int origemX, int origemY, int destinoX, int destinoY, Peca[][] tabuleiro) {
+		return false;
+	}
 }
